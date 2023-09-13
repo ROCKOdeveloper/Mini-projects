@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Cuadro {
@@ -19,6 +24,6 @@ body {
 .Elemento {
     border-radius: 0.5rem;
     width: 4rem;
-    height: 8rem;
+    height: 4rem;
     background-color: rgb(255, 255, 255);
 }
