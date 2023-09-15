@@ -7,22 +7,22 @@ body {
     justify-content: center;
 }
 
-.Cuadro {
+.container {
     display: flex;
     gap: 1rem;
 }
 
-.Cuadro>div {
+.container>div {
     flex: 1;
     transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
-.Cuadro>div:hover {
+.container>div:hover {
     flex: 3;
 }
 
-.Elemento {
-    border-radius: 0.5rem;
+.circle {
+    border-radius: 1rem;
     width: 4rem;
     height: 4rem;
     background-color: rgb(255, 255, 255);

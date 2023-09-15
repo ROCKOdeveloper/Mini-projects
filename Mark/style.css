@@ -1,29 +1,20 @@
-html {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #ffffff;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    font-family: 'Lucida Sans', sans-serif;
+    align-items: center;
     justify-content: center;
-    min-height: 100vh;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
 }
 
 p {
-    color: #000000;
+    color: white;
     font-size: 18px;
     margin: 0;
 }
 
 p a {
-    color: inherit;
+    color: white;
     display: inline-block;
     margin: 0 4px;
     position: relative;
@@ -42,7 +33,7 @@ p a svg {
     stroke-linecap: round;
     stroke-width: 2px;
     transition: stroke 0.25s ease, stroke-dasharray 0.35s;
-    transform: translate(-50%, 7px) translateZ(0);
+    transform: translate(-50%, -7px) translateZ(0);
     width: 76px;
 }
 

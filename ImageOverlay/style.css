@@ -1,6 +1,10 @@
-body { 
+body {
     background-color: black;
-    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 article {
@@ -42,13 +46,13 @@ article::before {
     background-image: linear-gradient(to bottom, transparent 10%, #00000080 50%, #000000 95%);
     opacity: 0;
     transition: all .3s ease;
-} 
+}
 
 article:hover::before {
     opacity: 1;
 }
 
-article:hover img:last-child { 
+article:hover img:last-child {
     opacity: 1;
     transform: translateY(10%);
 }

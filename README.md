@@ -6,6 +6,8 @@ En este repositorio se encuentran mini proyectos elaborados en HTML, CSS y JavaS
 
 Todo se dejará en ingles para que todos nos entendamos, desde la carpeta hasta el codigo.
 
+### HTML inicial
+
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -16,12 +18,14 @@ Todo se dejará en ingles para que todos nos entendamos, desde la carpeta hasta 
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hola, mundo!</h1>
-    <p>Este es un ejemplo de HTML en CodePen.</p>
+    <h1 class="Example">Hello world!</h1>
+    <!-- Este es un ejemplo de HTML en CodePen -->
     <script src="script.js"></script>
   </body>
 </html>
 ```
+
+### CSS inicial
 
 ```css
 body {
@@ -31,6 +35,8 @@ body {
   color: white;
 }
 ```
+
+### JavaScript inicial
 
 ```js
 console.log("Hola, mundo!");
