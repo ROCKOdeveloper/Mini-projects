@@ -1,0 +1,53 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+button {
+  background: white;
+  cursor: pointer;
+  border: none;
+  padding: 16px 32px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px;
+}
+
+span {
+  color: white;
+  font-weight: 100;
+  font-size: xx-large;
+}
+
+#body {
+  animation: body 5000ms linear infinite alternate both;
+}
+
+@keyframes body {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}

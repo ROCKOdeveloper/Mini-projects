@@ -33,7 +33,7 @@ p a svg {
     stroke-linecap: round;
     stroke-width: 2px;
     transition: stroke 0.25s ease, stroke-dasharray 0.35s;
-    transform: translate(-50%, -7px) translateZ(0);
+    transform: translate(-50%, -11px) translateZ(0);
     width: 76px;
 }
 
