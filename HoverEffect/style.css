@@ -1,0 +1,48 @@
+* {
+  font-family: monospace;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  margin: auto;
+}
+
+li a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
