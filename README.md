@@ -18,8 +18,8 @@ Todo se dejará en ingles para que todos nos entendamos, desde la carpeta hasta 
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <!-- Comment -->
     <h1 class="Example">Hello world!</h1>
-    <!-- Este es un ejemplo de HTML en CodePen -->
     <script src="script.js"></script>
   </body>
 </html>
@@ -31,6 +31,7 @@ Todo se dejará en ingles para que todos nos entendamos, desde la carpeta hasta 
 body {
   background-color: black;
 }
+/* Comment */
 .Example {
   color: white;
 }
@@ -39,5 +40,6 @@ body {
 ### JavaScript inicial
 
 ```js
+// Comment
 console.log("Hola, mundo!");
 ```
