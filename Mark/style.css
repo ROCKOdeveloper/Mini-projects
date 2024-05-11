@@ -1,45 +1,45 @@
 body {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
-    color: white;
-    font-size: 18px;
-    margin: 0;
+  color: white;
+  font-size: 18px;
+  margin: 0;
 }
 
 p a {
-    color: white;
-    display: inline-block;
-    margin: 0 4px;
-    position: relative;
-    text-decoration: none;
-    transition: margin 0.2s;
+  color: white;
+  display: inline-block;
+  margin: 0 4px;
+  position: relative;
+  text-decoration: none;
+  transition: margin 0.2s;
 }
 
 p a svg {
-    fill: none;
-    height: 40px;
-    left: 50%;
-    position: absolute;
-    stroke: #d12222;
-    stroke-dasharray: 69px 278px;
-    stroke-dashoffset: 361px;
-    stroke-linecap: round;
-    stroke-width: 2px;
-    transition: stroke 0.25s ease, stroke-dasharray 0.35s;
-    transform: translate(-50%, -11px) translateZ(0);
-    width: 76px;
+  fill: none;
+  height: 40px;
+  left: 50%;
+  position: absolute;
+  stroke: #d12222;
+  stroke-dasharray: 69px 278px;
+  stroke-dashoffset: 361px;
+  stroke-linecap: round;
+  stroke-width: 2px;
+  transition: stroke 0.25s ease, stroke-dasharray 0.35s;
+  transform: translate(-50%, -11px) translateZ(0);
+  width: 76px;
 }
 
 p a:hover svg {
-    stroke: #d12222;
-    stroke-dasharray: 180px 270px;
-    stroke-dashoffset: 361px;
-    transition: stroke 0.25s ease 1s, stroke-dasharray 0.35s;
+  stroke: #d12222;
+  stroke-dasharray: 180px 270px;
+  stroke-dashoffset: 361px;
+  transition: stroke 0.25s ease 1s, stroke-dasharray 0.35s;
 }

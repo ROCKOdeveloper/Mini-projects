@@ -1,29 +1,29 @@
 body {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .container>div {
-    flex: 1;
-    transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+  flex: 1;
+  transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .container>div:hover {
-    flex: 3;
+  flex: 3;
 }
 
 .circle {
-    border-radius: 1rem;
-    width: 4rem;
-    height: 4rem;
-    background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(255, 255, 255);
 }

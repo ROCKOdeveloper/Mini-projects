@@ -1,0 +1,70 @@
+:root {
+  --x: 0;
+  --y: 0;
+  --xp: 0;
+  --yp: 0;
+  --hue: calc(0 + (var(--xp) * 1500)); 
+  --bg: #000000; 
+  --size: 100px;
+  --glow: radial-gradient(50% 50% at center,
+      hsl(var(--hue) 70% 50%),      
+      hsl(var(--hue) 100% 50%),  
+      transparent) calc((var(--x) * 1px) - (var(--size) * 0.5)) calc((var(--y) * 1px) - (var(--size) * 0.5)) / var(--size) var(--size) no-repeat fixed;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: var(--bg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+}
+
+button {
+  border-radius: 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  background: linear-gradient(var(--bg), var(--bg)) padding-box, var(--glow),
+    linear-gradient(#323232, #242424) border-box;
+  transition: background-size 0.24s;
+  touch-action: none;
+  position: relative;
+  padding: 1rem 2rem;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  z-index: 2;
+  border-radius: 1rem;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  filter: blur(50px);
+  border: 4px solid transparent;
+  background: var(--glow);
+}
+
+button span {
+  background: var(--glow), #323232;
+  background-clip: text;
+  color: transparent;
+  z-index: 2;
+  position: relative;
+  inset: 0;
+  font-weight: 800;
+}
+
+:root:has(button:active) {
+  --size: 200px;
+}
